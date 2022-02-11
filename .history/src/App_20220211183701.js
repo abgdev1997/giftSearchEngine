@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <Link to='/gif/panda'>Pandas</Link>
-        <Link to='/gif/star-wars'>Star Wars</Link>
-        <Link to='/gif/dragon-ball'>Dragon Ball</Link>
+        <Link href='/gif/panda'>Pandas</Link>
+        <a href='/gif/star-wars'>Star Wars</a>
+        <a href='/gif/dragon-ball'>Dragon Ball</a>
         <Route path='/gif/:keyword' component={ListOfGifs}/>
       </section>
     </div>

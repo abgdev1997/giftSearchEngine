@@ -9,9 +9,7 @@ export const ListOfGifs = ({params}) => {
     useEffect(() => {
         setGifs(actualGifs => ({loading: true, results: actualGifs.results}))
         GetGifs({keyword})
-            .then(gifs => {
-                setGifs({loading: false, results: gifs})
-            })
+            .then(gifs => loading: false, results: gifs))
     }, [keyword]);
 
     if(gifs.loading){

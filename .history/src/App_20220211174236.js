@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <ListOfGifs keyword='dragon ball'/>
+        <ListOfGifs keyword='ecuador'/>
         
       </section>
     </div>
